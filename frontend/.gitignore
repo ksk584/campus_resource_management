@@ -1,0 +1,21 @@
+# Environment Variables & Keys
+.env
+.env.*
+*.env
+*.env.local
+
+# Allow example template
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Production Build Output
+dist/
+dist-ssr/
+
+# Logs & temp
+*.log
+npm-debug.log*
+.vite/
+
