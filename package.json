@@ -1,0 +1,13 @@
+{
+  "name": "smart-campus-resource-booking",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Campus Resource Booking & Management System",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "db:setup": "npm --prefix backend run db:setup",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
+
